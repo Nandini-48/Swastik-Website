@@ -130,6 +130,7 @@ export const pricingOptions = [
       "Fast",
       "SEO-friendly",
       "Private Mode",
+      "Contact : 9105280131",
     ],
   },
   {
@@ -140,6 +141,7 @@ export const pricingOptions = [
       "Cloud-Based",
       "Subscription Model",
       "Customization",
+      "Contact : 9105280131",
     ],
   },
   {
@@ -150,6 +152,7 @@ export const pricingOptions = [
       "Security & Compliance",
       "High Performance",
       "Scalability",
+      "Contact : 9105280131",
     ],
   },
 ];
