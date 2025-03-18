@@ -41,7 +41,7 @@ const Navbar = () => {
 
           {/* 🔹 Sign In & Sign Up Buttons */}
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <Link to="/signup" className="py-2 px-3 border rounded-md text-white">Sign In</Link>
+            <Link to="/signin" className="py-2 px-3 border rounded-md text-white">Contacts</Link>
             <Link to="/signup" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md text-white">Create an account</Link>
           </div>
 
@@ -64,7 +64,7 @@ const Navbar = () => {
               <li><button onClick={() => scrollToSection("testimonials")} className="hover:text-orange-500 text-white">Testimonials</button></li>
             </ul>
             <div className="flex space-x-6 mt-6">
-              <Link to="/signin" className="py-2 px-3 border rounded-md text-white">Sign In</Link>
+              <Link to="/signin" className="py-2 px-3 border rounded-md text-white">Contacts</Link>
               <Link to="/signup" className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 text-white">Create an account</Link>
             </div>
           </div>
