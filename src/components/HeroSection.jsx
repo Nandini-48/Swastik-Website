@@ -1,13 +1,4 @@
-import { Link } from "react-router-dom";
-
 const HeroSection = () => {
-  const scrollToPricing = () => {
-    const section = document.getElementById("pricing");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
@@ -23,20 +14,22 @@ const HeroSection = () => {
         into immersive reality!
       </p>
       <div className="flex justify-center my-10">
-        {/* ✅ Fixed: Scroll to Pricing on Click */}
-        <button
-          onClick={scrollToPricing}
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+        {/* ✅ Open Form in New Tab */}
+        <a
+          href="https://forms.fillout.com/t/uGrDGsr5QLus"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md text-white"
         >
           Start for Free
-        </button>
+        </a>
 
-        <Link
-          to="/documentation"
-          className="py-3 px-4 mx-3 rounded-md border"
+        <a
+          href="/documentation"
+          className="py-3 px-4 mx-3 rounded-md border text-white"
         >
           Documentation
-        </Link>
+        </a>
       </div>
     </div>
   );

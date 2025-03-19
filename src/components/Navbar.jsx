@@ -42,7 +42,15 @@ const Navbar = () => {
           {/* 🔹 Sign In & Sign Up Buttons */}
           <div className="hidden lg:flex justify-center space-x-12 items-center">
             <Link to="/signin" className="py-2 px-3 border rounded-md text-white">Contacts</Link>
-            <Link to="/signup" className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md text-white">Create an account</Link>
+            <a
+  href="https://forms.fillout.com/t/uGrDGsr5QLus"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md text-white"
+>
+  Place Order
+</a>
+
           </div>
 
           {/* 🔹 Mobile Menu Toggle */}
@@ -65,7 +73,15 @@ const Navbar = () => {
             </ul>
             <div className="flex space-x-6 mt-6">
               <Link to="/signin" className="py-2 px-3 border rounded-md text-white">Contacts</Link>
-              <Link to="/signup" className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 text-white">Create an account</Link>
+             {/* 🔹 Mobile Place Order Button */}
+<a
+  href="https://forms.fillout.com/t/uGrDGsr5QLus"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800 text-white"
+>
+  Place Order
+</a>
             </div>
           </div>
         )}
